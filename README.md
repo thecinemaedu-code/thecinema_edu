@@ -1,54 +1,68 @@
-🎬 The Cinema Edu — Sudut Layar Creative Studio
-The Cinema Edu adalah platform edukasi berbasis film yang dikembangkan oleh Sudut Layar Creative Studio. Web ini berfungsi sebagai ruang digital terkurasi untuk menampilkan karya film pendek, trailer, serta bedah nilai edukasi di balik setiap produksi.
+# 🎬 The Cinema Edu — Sudut Layar Creative Studio
 
-✨ Fitur Utama
-Sinematik & Minimalis: Desain modern dengan palet warna "Ink & Copper" yang memberikan kesan premium.
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Angkatan](https://img.shields.io/badge/Batch-2024--2025-blue)
 
-Video Modal Integrated: Menonton trailer secara langsung tanpa berpindah halaman menggunakan integrasi Google Drive & YouTube.
+**The Cinema Edu** adalah platform portofolio digital dan edukasi berbasis film yang dikembangkan oleh **Sudut Layar Creative Studio**. Web ini dirancang sebagai ruang apresiasi karya film pendek sekaligus media belajar mengenai proses kreatif di balik layar.
 
-Edukasi Mendalam: Bagian khusus yang menjabarkan aspek teknis produksi dan pesan moral dari setiap film.
+---
 
-Custom Cursor Experience: Navigasi interaktif dengan sistem dual-ring custom cursor yang responsif.
+## ✨ Fitur Utama
 
-Fully Responsive: Optimal untuk berbagai perangkat, dari desktop hingga smartphone.
+* **Sinematik & Minimalis:** Desain modern menggunakan palet warna premium *Ink & Copper* untuk estetika yang elegan.
+* **Video Modal Integrated:** Menonton trailer dan film secara langsung tanpa berpindah halaman menggunakan integrasi video player.
+* **Edukasi Mendalam:** Menjabarkan detail teknis produksi (seperti penggunaan *sound effect*, properti, dan teknik kamera) serta pesan moral dari setiap karya.
+* **Custom Cursor Experience:** Sistem navigasi interaktif dengan *dual-ring custom cursor* yang responsif terhadap elemen yang dapat diklik.
+* **Portal Klien (Demo):** Sistem autentikasi dasar untuk akses aset eksklusif bagi klien atau anggota internal.
+* **Fully Responsive:** Tampilan yang optimal diakses dari perangkat desktop, tablet, maupun smartphone.
 
-🛠️ Detail Teknis
-Frontend: HTML5, CSS3 (Custom Properties, Grid, Flexbox).
+---
 
-Interaksi: Vanilla JavaScript (ES6+).
+## 🛠️ Detail Teknis
 
-Animasi: Scroll Reveal menggunakan Intersection Observer API.
+Platform ini dibangun dengan teknologi web standar untuk performa yang ringan dan cepat:
 
-Tipografi: Google Fonts (Cormorant Garamond, DM Mono, Bebas Neue).
+* **Bahasa:** HTML5, CSS3, dan Vanilla JavaScript (ES6+).
+* **Animasi:** Menggunakan `Intersection Observer API` untuk efek muncul saat scroll dan CSS Keyframes untuk animasi geometris.
+* **Tipografi:** Google Fonts (*Cormorant Garamond, DM Mono, Bebas Neue*).
+* **Layout:** Menggunakan CSS Grid dan Flexbox untuk fleksibilitas tata letak.
 
-📂 Struktur Proyek
-#hero: Pengenalan brand dengan tipografi bold.
+---
 
-#work: Grid portofolio film dengan hover effect interaktif.
+## 📂 Struktur Folder
 
-#services: Panel edukasi yang merinci detail produksi.
+* `index.html`: Struktur utama website.
+* `styles`: (Internal CSS) Pengaturan tema warna, tipografi, dan animasi.
+* `scripts`: (Internal JS) Logika kursor kustom, modal video, dan sistem login.
 
-#contact: Area kolaborasi dan media sosial.
+---
 
-🚀 Cara Menjalankan
-Clone repositori ini:
+## 🚀 Cara Menjalankan
 
-Bash
-git clone https://github.com/username-anda/sudut-layar.git
-Buka file index.html di browser pilihan Anda.
+1.  **Clone repositori ini:**
+    ```bash
+    git clone [https://github.com/username-anda/sudut-layar.git](https://github.com/username-anda/sudut-layar.git)
+    ```
+2.  **Buka file:**
+    Cukup klik dua kali pada file `index.html` di dalam folder proyek untuk membukanya di browser Anda.
 
-⚠️ Komplain & Dukungan (Feedback & Support)
-Kami sangat menghargai masukan untuk meningkatkan kualitas karya dan pengalaman pengguna di platform ini. Jika Anda menemukan bug, kesalahan pada konten, atau memiliki keluhan terkait layanan kami, silakan hubungi tim melalui jalur berikut:
+---
 
-Email Resmi: thecinemaedu@gmai.com
+## ⚠️ Komplain & Dukungan (Feedback & Support)
 
-Subjek Email: KOMPLAIN_NamaAnda_Kendala
+Kami sangat menghargai masukan untuk meningkatkan kualitas platform dan karya kami. Jika Anda menemukan kendala teknis (bug), kesalahan informasi, atau memiliki keluhan layanan, silakan hubungi kami melalui:
 
-GitHub Issues: Anda juga dapat melaporkan masalah teknis melalui menu Issues di repositori ini.
+* **Email Resmi:** [ thecinemaedu@gmail.com ](mailto: thecinemaedu@gmail.com)
+* **Prosedur Komplain:** Sertakan subjek `[KOMPLAIN] Nama_Kendala` agar tim kami dapat segera memprosesnya.
+* **GitHub Issues:** Laporkan masalah teknis secara langsung melalui tab [Issues](https://github.com/username-anda/sudut-layar/issues) di repositori ini.
 
-Kami berkomitmen untuk menanggapi setiap masukan dalam waktu 1x24 jam pada hari kerja.
+Kami berkomitmen untuk memberikan respon maksimal dalam **1x24 jam** pada hari kerja.
 
-🎞️ Tentang Sudut Layar
-Sebuah inisiatif kreatif dari siswa SMKN 1 Cikarang Selatan (Angkatan 2024–2025) yang percaya bahwa film bukan sekadar hiburan, melainkan media belajar yang paling bermakna.
+---
 
-Note: Proyek ini dikembangkan dengan fokus pada User Experience (UX). Jika Anda adalah klien yang membutuhkan akses ke portal eksklusif, silakan hubungi admin melalui kontak di atas.
+## 🎞️ Tentang Kami
+**Sudut Layar Creative Studio** merupakan wadah kreativitas siswa **SMKN 1 Cikarang Selatan** (Angkatan 2024–2025). Kami percaya bahwa film adalah media komunikasi paling kuat untuk menyampaikan pesan edukatif dan inspirasi bagi generasi muda.
+
+---
+
+> Proyek ini dikembangkan oleh **Sudut Layar Creative Studio**. Seluruh hak cipta karya film berada di bawah naungan tim produksi terkait.
